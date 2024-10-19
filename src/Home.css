@@ -1,0 +1,19 @@
+.home-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .home-screenshot {
+    max-width: 100%;
+    max-width: 800px;
+    height: auto;
+    border: 2px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .image-wrapper {
+    width: 100%; /* Adjust this based on your Navbar's width */
+    max-width: 800px; /* Make sure it aligns with the Navbar's width */
+    margin: 0 auto; /* Center the wrapper */
+  }
+  
