@@ -1,0 +1,83 @@
+/* styles.css */
+
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa; /* Light gray background */
+}
+
+.App {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header Styles */
+header {
+  background-color: green; /* Header color */
+  color: white; /* Text color */
+  padding: 10px 20px;
+  text-align: center;
+}
+
+nav {
+  margin-bottom: 20px;
+}
+
+nav a {
+  color: white; /* Link color */
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+nav a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+/* Table Styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+table,
+th,
+td {
+  border: 1px solid #dee2e6; /* Table border color */
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #e9ecef; /* Header background for table */
+}
+
+/* Form Styles */
+form {
+  margin-top: 20px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  margin: 5px 0;
+  width: calc(50% - 10px); /* Adjust width to fit in form */
+}
+
+button {
+  padding: 10px 15px;
+  background-color: green; /* Button color */
+  color: white; /* Button text color */
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: darkgreen; /* Darker green on hover */
+}
